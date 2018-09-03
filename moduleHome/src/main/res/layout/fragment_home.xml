@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转ModuleTwo Activity" />
+
+    <Button
+        android:id="@+id/bt_result_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部启动Activity" />
+
+    <Button
+        android:id="@+id/bt_event_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通过 EventBus 通信"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_intercept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带过滤的跳转two" />
+
+    <Button
+        android:id="@+id/bt_inject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转two并注入依赖数据" />
+
+    <Button
+        android:id="@+id/bt_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取其它模块数据" />
+
+    <Button
+        android:id="@+id/bt_aidl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aidl获取其它模块数据" />
+
+    <Button
+        android:id="@+id/bt_aidl_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aidl跳转two"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_scheme_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scheme跳转two" />
+
+</LinearLayout>
